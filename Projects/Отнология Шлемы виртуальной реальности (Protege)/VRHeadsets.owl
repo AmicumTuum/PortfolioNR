@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HasHeadset -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HasHeadset">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Owner"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HasSupport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HasSupport">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ProdSupport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HasTechnology -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HasTechnology">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#TechSupportIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Owner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Owner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ProdSupport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ProdSupport">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#TechSupportIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#TechSupportIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#IPD -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#IPD">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnFov -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnFov"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnHhz -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnHhz"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnRes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnRes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnTech -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#ScrnTech"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Weight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Wireless -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Wireless"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Home -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Home">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Portable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Portable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Tech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Tech"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HTC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#HTC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Company"/>
+        <HasHeadset rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Vive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Index -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Index">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Home"/>
+        <Owner rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Valve"/>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">999</Price>
+        <ScrnFov rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">130</ScrnFov>
+        <ScrnHhz rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</ScrnHhz>
+        <ScrnRes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2880x3200</ScrnRes>
+        <ScrnTech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCD</ScrnTech>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">809</Weight>
+        <Wireless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wireless>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#MR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#MR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Tech"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Oculus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Oculus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Company"/>
+        <HasHeadset rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Quest_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#OculusHome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#OculusHome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Product"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Quest_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Odyssey_Plus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Odyssey_Plus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Home"/>
+        <HasTechnology rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#MR"/>
+        <Owner rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Samsung"/>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">219</Price>
+        <ScrnRes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2880x3200</ScrnRes>
+        <ScrnTech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amoled</ScrnTech>
+        <Wireless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wireless>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Quest_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Quest_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Portable"/>
+        <Owner rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Oculus"/>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">380</Price>
+        <ScrnFov rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110</ScrnFov>
+        <ScrnHhz rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</ScrnHhz>
+        <ScrnRes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3840x3664</ScrnRes>
+        <ScrnTech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCD</ScrnTech>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">503</Weight>
+        <Wireless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wireless>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Samsung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Samsung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Company"/>
+        <HasHeadset rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Odyssey_Plus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#SteamVR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#SteamVR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Product"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Index"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Odyssey_Plus"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Vive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#VR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#VR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Tech"/>
+        <TechSupportIn rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Index"/>
+        <TechSupportIn rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Quest_2"/>
+        <TechSupportIn rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Vive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Valve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Valve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#VirtualMuseum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#VirtualMuseum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Product"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Odyssey_Plus"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Quest_2"/>
+        <HasSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Vive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Vive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Vive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Headset"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Home"/>
+        <Price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">599</Price>
+        <ScrnFov rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110</ScrnFov>
+        <ScrnHhz rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</ScrnHhz>
+        <ScrnRes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2160х1200</ScrnRes>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">470</Weight>
+        <Wireless rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wireless>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Windows_Home -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Windows_Home">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Product"/>
+        <ProdSupport rdf:resource="http://www.semanticweb.org/alex/ontologies/2022/5/untitled-ontology-11#Odyssey_Plus"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
